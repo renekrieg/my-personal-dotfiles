@@ -5,14 +5,12 @@
 - clean: ['~']
 
 - link:
-    ~/.zshr
-    ~/.vim
-    ~/.vimrc: vimrc
+    ~/.zshrc:
+    ~/.gitconfig:
 
 - create:
-    - ~/downloads
-    - ~/playground   
-    - ~/work   
+    - ~/Work
+    - ~/Playground
 
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
+#- shell:
+#  - [git submodule update --init --recursive, Installing submodules]
