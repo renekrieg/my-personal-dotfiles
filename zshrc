@@ -20,3 +20,8 @@ alias bbd="brew bundle dump --force --describe"
 #%1~%L %# '
 
 RPROMPT='%*'
+
+# Functions
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
