@@ -34,11 +34,6 @@ alias bbd="brew bundle dump --force --describe"
 # Load history into shell (shareHistory alternative)
 alias lh='fc -RI; echo "loaded and showing..."; history;'
 
-# Customize Prompt(s)
-# PROMPT='
-#%1~%L %# '
-
-RPROMPT='%*'
 
 # Functions
 function mkcd() {
@@ -46,9 +41,21 @@ function mkcd() {
 }
 
 # Use ZSH Plugins
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 source <(antibody init)
 antibody bundle < "$DOTFILES/antibody_plugins"
 
+
+# ...and Other Surprises
+
+# Change Key Bindings
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# Add "zstyles" for Completions & Other Things
+zstyle ':completion:*:*:*:*:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+zstyle ':plugin:history-search-multi-word' clear-on-cancel 'yes'
 
 # Load "New" Completion System
 autoload -Uz compinit && compinit
