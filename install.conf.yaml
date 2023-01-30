@@ -11,9 +11,11 @@
     ~/.mackup.cfg:
     ~/.nanorc:
     ~/.spaceshiprc.zsh:
+    ~/.hyper.js:
     ~/.config/bat:
       create: true
       path: config/bat
+
 - create:
     - ~/Work
     - ~/Playground
