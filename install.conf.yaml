@@ -10,6 +10,7 @@
     ~/.gitconfig:
     ~/.mackup.cfg:
     ~/.nanorc:
+    ~/.spaceshiprc.zsh:
     ~/.config/bat:
       create: true
       path: config/bat
@@ -22,5 +23,8 @@
       stdout: true
       stderr: true
     - command: ./setup_zsh.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_macos.zsh
       stdout: true
       stderr: true
