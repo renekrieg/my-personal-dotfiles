@@ -3,6 +3,10 @@ export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 # Syntax highlighting for man pages using bat
 # export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
@@ -25,6 +29,7 @@ setopt globDots
 
 # Create Aliases
 alias ls='exa'
+alias la='exa -laFh --sort=ext'
 alias exa='exa -laFh --git'
 alias trail='<<<${(F)path}'
 alias ftrail='<<<${(F)fpath}'
@@ -34,9 +39,16 @@ alias bbd="brew bundle dump --force --describe"
 # Load history into shell (shareHistory alternative)
 alias lh='fc -RI; echo "loaded and showing..."; history;'
 
+# Work
+alias work='cd ~/work'
+alias stk='cd ~/work/stk'
+
 
 # Functions
 function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
+function take() {
   mkdir -p "$@" && cd "$_";
 }
 
