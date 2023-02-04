@@ -1,3 +1,25 @@
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
+
+[color "branch"]
+  current = green
+  remote = yellow
+
 [user]
-	name = Rene Krieg
-	email = rene_k@me.com
+    name = Rene Krieg
+    email = rene_k@me.com
+[includeIf "gitdir:~/work/"]
+    path = ~/work/.gitconfig-work
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = ~/.gitignore
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
