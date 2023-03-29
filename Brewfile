@@ -5,24 +5,54 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+# Simple, modern, secure file encryption
+brew "age"
 # Shell plugin manager
 brew "antibody"
+# Text processing system for reStructuredText
+brew "docutils"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Modern replacement for 'ls'
-brew "exa"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
+# Modern replacement for 'ls'
+brew "exa"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Generic library support script
+brew "libtool"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Platform built on V8 to build network applications
+brew "node"
+# Interactive environments for writing and running code
+brew "jupyterlab"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Pager program similar to more
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
+# OpenShift command-line interface tools
+brew "openshift-cli"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
+# Editor of encrypted files
+brew "sops"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
@@ -31,6 +61,8 @@ brew "eth-p/software/bat-extras"
 cask "1password"
 # Application launcher and productivity software
 cask "alfred"
+# Two-factor authentication software
+cask "authy"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
 # Database version management tool

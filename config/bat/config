@@ -11,3 +11,5 @@
 --map-syntax "zshrc:Bourne Again Shell (bash)"
 --map-syntax "zshenv:Bourne Again Shell (bash)"
 --map-syntax "Brewfile:Bourne Again Shell (bash)"
+--map-syntax "*.template:YAML"
+#--map-syntax "Brewfile:Bourne Again Shell (bash)"

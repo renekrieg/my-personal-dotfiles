@@ -261,3 +261,5 @@ poetry.toml
 
 
 # End of https://www.toptal.com/developers/gitignore/api/java,python,macos,angular
+
+Brewfile.lock.json

@@ -42,7 +42,7 @@ alias lh='fc -RI; echo "loaded and showing..."; history;'
 # Work
 alias work='cd ~/work'
 alias stk='cd ~/work/stk'
-
+alias tokenschleuder="source $HOME/work/tokenschleuder/venv/bin/activate && $HOME/work/tokenschleuder/tokenschleuder.py"
 
 # Functions
 function mkcd() {
@@ -71,3 +71,4 @@ zstyle ':plugin:history-search-multi-word' clear-on-cancel 'yes'
 
 # Load "New" Completion System
 autoload -Uz compinit && compinit
+export GOPATH=~/go
