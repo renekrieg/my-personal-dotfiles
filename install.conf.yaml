@@ -8,8 +8,6 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.gitconfig:
-    ~/.gitconfig-personal:
-    ~/work/.gitconfig-work:
     ~/.mackup.cfg:
     ~/.nanorc:
     ~/.spaceshiprc.zsh:
@@ -27,5 +25,8 @@
      stdout: true
      stderr: true
    - command: ./setup_zsh.zsh
+     stdout: true
+     stderr: true
+   - command: ./setup_macos.zsh
      stdout: true
      stderr: true
