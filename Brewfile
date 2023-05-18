@@ -1,14 +1,16 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
 # Simple, modern, secure file encryption
 brew "age"
 # Shell plugin manager
 brew "antibody"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Text processing system for reStructuredText
 brew "docutils"
 # Official Amazon AWS command-line interface
@@ -19,16 +21,38 @@ brew "bat"
 brew "gettext"
 # Modern replacement for 'ls'
 brew "exa"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
+# Library for JPEG-2000 image manipulation
+brew "openjpeg"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Image manipulation
+brew "netpbm"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Generic library support script
 brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Improved top (interactive process viewer)
+brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Interactive computing in Python
+brew "ipython"
+# Manage your Java environment
+brew "jenv"
 # Platform built on V8 to build network applications
 brew "node"
 # Interactive environments for writing and running code
