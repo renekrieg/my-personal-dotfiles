@@ -4,6 +4,7 @@ export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export PYENV_ROOT="$HOME/.pyenv"
+export AWS_REGION=eu-central-1
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
@@ -43,6 +44,7 @@ alias lh='fc -RI; echo "loaded and showing..."; history;'
 alias work='cd ~/work'
 alias stk='cd ~/work/stk'
 alias tokenschleuder="source $HOME/work/tokenschleuder/venv/bin/activate && $HOME/work/tokenschleuder/tokenschleuder.py"
+eval ssh -T gitlab >/dev/null
 
 # Functions
 function mkcd() {
@@ -51,7 +53,9 @@ function mkcd() {
 function take() {
   mkdir -p "$@" && cd "$_";
 }
-
+function showport(){
+  lsof -i tcp:"$@"
+}
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 source <(antibody init)
@@ -72,3 +76,5 @@ zstyle ':plugin:history-search-multi-word' clear-on-cancel 'yes'
 # Load "New" Completion System
 autoload -Uz compinit && compinit
 export GOPATH=~/go
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
