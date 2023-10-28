@@ -7,38 +7,22 @@ tap "homebrew/services"
 brew "age"
 # Shell plugin manager
 brew "antibody"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
-# Text processing system for reStructuredText
-brew "docutils"
+# brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# GNU internationalization (i18n) and localization (l10n) library
-brew "gettext"
 # Modern replacement for 'ls'
 brew "exa"
-# Graphics library to dynamically manipulate images
-brew "gd"
-# Toolkit for image loading and pixel buffer manipulation
-brew "gdk-pixbuf"
 # Library for JPEG-2000 image manipulation
 brew "openjpeg"
 # Interpreter for PostScript and PDF
 brew "ghostscript"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Image manipulation
 brew "netpbm"
-# Library to render SVG files using Cairo
-brew "librsvg"
-# Generic library support script
-brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Improved top (interactive process viewer)
@@ -49,10 +33,6 @@ brew "httpie"
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
-# Interactive computing in Python
-brew "ipython"
-# Manage your Java environment
-brew "jenv"
 # Platform built on V8 to build network applications
 brew "node"
 # Interactive environments for writing and running code
@@ -63,26 +43,18 @@ brew "kubernetes-cli"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# Development kit for the Java programming language
-brew "openjdk"
 # Java-based project management
 brew "maven"
-# OpenShift command-line interface tools
-brew "openshift-cli"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# Editor of encrypted files
-brew "sops"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-# Password manager that keeps all passwords secure behind one password
-cask "1password"
 # Application launcher and productivity software
 cask "alfred"
 # Two-factor authentication software
@@ -129,8 +101,6 @@ cask "onedrive"
 cask "openvpn-connect"
 # Collaboration platform for API development
 cask "postman"
-# IDE for Python programming - Community Edition
-cask "pycharm-ce"
 # QuickLook generator for Markdown files
 cask "qlmarkdown"
 # QuickLook plugin for JSON files
@@ -145,8 +115,6 @@ cask "signal"
 cask "spotify"
 # Native GUI tool for relational databases
 cask "tableplus"
-# Desktop client for Telegram messenger
-cask "telegram-desktop"
 # Unpacks archive files
 cask "the-unarchiver"
 # To-do list
@@ -157,9 +125,8 @@ cask "transmit"
 cask "vlc"
 # Desktop client for WhatsApp
 cask "whatsapp"
-# Video communication and virtual meeting platform
-cask "zoom"
 mas "Kindle", id: 405399194
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "The Unarchiver", id: 425424353
+mas "WireGuard", id: 1451685025

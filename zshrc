@@ -78,3 +78,7 @@ autoload -Uz compinit && compinit
 export GOPATH=~/go
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
