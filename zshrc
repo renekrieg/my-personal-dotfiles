@@ -42,7 +42,7 @@ alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 # Work
 alias work='cd ~/work'
-alias stk='cd ~/work/stk'
+alias stk='cd ~/work/streckenkunde40'
 alias tokenschleuder="source $HOME/work/tokenschleuder/venv/bin/activate && $HOME/work/tokenschleuder/tokenschleuder.py"
 eval ssh -T gitlab >/dev/null
 
