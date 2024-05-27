@@ -5,28 +5,31 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc:
-    ~/.zshenv:
-    ~/.gitconfig:
-    ~/.mackup.cfg:
-    ~/.nanorc:
-    ~/.spaceshiprc.zsh:
-    ~/.hyper.js:
-    ~/.config/bat:
+    ~/.zshrc: config/zshrc
+    ~/.zshenv: config/zshenv
+    ~/.zsh_aliases: config/zsh_aliases
+    ~/.gitconfig: config/gitconfig
+    ~/.mackup.cfg: config/mackup.cfg
+    ~/.nanorc: config/nanorc
+    ~/.config/bat: 
       create: true
       path: config/bat
+    ~/.config/nvim: config/nvim
 
-- create:
-  - ~/Work
-  - ~/Playground
+# - create:
+#   - ~/work
+#   - ~/development
 
 - shell:
-   - command: ./setup_homebrew.zsh
-     stdout: true
-     stderr: true
-   - command: ./setup_zsh.zsh
-     stdout: true
-     stderr: true
-   - command: ./setup_macos.zsh
+  #  - command: scripts/setup_homebrew.zsh
+  #    stdout: true
+  #    stderr: true
+  #  - command: /setup_zsh.zsh
+  #    stdout: true
+  #    stderr: true
+  #  - command: /setup_macos.zsh
+  #    stdout: true
+  #    stderr: true
+   - command: crontab scripts/cron.txt
      stdout: true
      stderr: true
