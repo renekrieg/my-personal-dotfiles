@@ -3,130 +3,182 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
-# Simple, modern, secure file encryption
 brew "age"
-# Shell plugin manager
-brew "antibody"
-# Interpreted, interactive, object-oriented programming language
-# brew "python@3.11"
-# Official Amazon AWS command-line interface
+brew "pycparser"
+brew "cffi"
+brew "ansible"
+brew "webp"
+brew "arp-scan"
+brew "python@3.11"
 brew "awscli"
-# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Modern replacement for 'ls'
+brew "black"
+brew "gettext"
+brew "cairo"
+brew "docutils"
+brew "dos2unix"
+brew "libgit2"
 brew "exa"
-# Library for JPEG-2000 image manipulation
+brew "exiftool"
+brew "libtool"
+brew "freetds"
+brew "gd"
+brew "gdk-pixbuf"
+brew "ggshield"
 brew "openjpeg"
-# Interpreter for PostScript and PDF
 brew "ghostscript"
-# Open source programming language to build simple/reliable/efficient software
+brew "glab"
+brew "unbound"
+brew "gnutls"
+brew "gnupg"
 brew "go"
-# Image manipulation
 brew "netpbm"
-# Graph visualization software from AT&T and Bell Labs
+brew "gts"
+brew "harfbuzz"
+brew "pango"
+brew "librsvg"
 brew "graphviz"
-# Improved top (interactive process viewer)
+brew "helm"
 brew "htop"
-# User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
-# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "shared-mime-info"
 brew "libheif"
-# Tools and libraries to manipulate images in many formats
+brew "libraw"
 brew "imagemagick"
-# Platform built on V8 to build network applications
+brew "iperf3"
+brew "ipython"
+brew "jq"
 brew "node"
-# Interactive environments for writing and running code
 brew "jupyterlab"
-# Kubernetes command-line interface
 brew "kubernetes-cli"
-# Pager program similar to more
 brew "less"
-# Mac App Store command-line interface
+brew "libpq"
+brew "mackup"
 brew "mas"
-# Java-based project management
 brew "maven"
-# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "mypy"
+brew "tree-sitter"
+brew "neovim"
+brew "openshift-cli"
+brew "php"
 brew "prettier"
-# Python version management
+brew "pydocstyle"
 brew "pyenv"
-# Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# UNIX shell (command interpreter)
+brew "python-lsp-server"
+brew "sops"
+brew "tmux"
+brew "trash"
+brew "tree"
+brew "wget"
+brew "xclip"
 brew "zsh"
-# Bash scripts that integrate bat with various command-line tools
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 brew "eth-p/software/bat-extras"
-# Application launcher and productivity software
 cask "alfred"
-# Two-factor authentication software
 cask "authy"
-# Utility that prevents the system from going to sleep
 cask "caffeine"
-# Database version management tool
 cask "dbngin"
-# Trains AIs to understand and translate texts
 cask "deepl"
-# Voice and text chat software
+cask "deskpad"
 cask "discord"
-# App to build and share containerized applications and microservices
 cask "docker"
-# Free monospaced font with programming ligatures
+cask "fig"
 cask "font-fira-code"
-# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 cask "font-lato"
 cask "font-open-sans"
-# Font with a mechanical skeleton and the forms are largely geometric
 cask "font-roboto"
 cask "font-source-code-pro"
 cask "font-source-code-pro-for-powerline"
 cask "font-source-sans-pro"
 cask "font-source-serif-pro"
-# Desktop client for GitHub repositories
 cask "github"
-# Git client focusing on productivity
 cask "gitkraken"
-# Terminal built on web technologies
-cask "hyper"
-# Tool to optimize images to a smaller size
 cask "imageoptim"
-# HTTP and GraphQL Client
 cask "insomnia"
-# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Password manager app
 cask "keepassxc"
-# Cloud storage client
+cask "obsidian"
 cask "onedrive"
-# Client program for the OpenVPN Access Server
 cask "openvpn-connect"
-# Collaboration platform for API development
 cask "postman"
-# QuickLook generator for Markdown files
 cask "qlmarkdown"
-# QuickLook plugin for JSON files
 cask "quicklook-json"
-# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Screenshot measurement and annotation tool
 cask "shottr"
-# Instant messaging application focusing on security
 cask "signal"
-# Music streaming service
 cask "spotify"
-# Native GUI tool for relational databases
 cask "tableplus"
-# Unpacks archive files
 cask "the-unarchiver"
-# To-do list
 cask "todoist"
-# File transfer application
 cask "transmit"
-# Multimedia player
 cask "vlc"
-# Desktop client for WhatsApp
 cask "whatsapp"
 mas "Kindle", id: 405399194
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "The Unarchiver", id: 425424353
-mas "WireGuard", id: 1451685025
+vscode "alexkrechik.cucumberautocomplete"
+vscode "amazonwebservices.aws-toolkit-vscode"
+vscode "angular.ng-template"
+vscode "asciidoctor.asciidoctor-vscode"
+vscode "aws-scripting-guy.cform"
+vscode "batisteo.vscode-django"
+vscode "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
+vscode "danielthielking.aws-cloudformation-yaml"
+vscode "deagrut.pep8-asm"
+vscode "dnicolson.binary-plist"
+vscode "donjayamanne.githistory"
+vscode "donjayamanne.python-environment-manager"
+vscode "donjayamanne.python-extension-pack"
+vscode "dotjoshjohnson.xml"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.code-runner"
+vscode "googlecloudtools.cloudcode"
+vscode "hediet.vscode-drawio"
+vscode "idleberg.applescript"
+vscode "jebbs.plantuml"
+vscode "kddejong.vscode-cfn-lint"
+vscode "kevinrose.vsc-python-indent"
+vscode "luisalvesmartins.markdown-code-to-png"
+vscode "lunuan.kubernetes-templates"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.debugpy"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.remote-explorer"
+vscode "nhoizey.gremlins"
+vscode "njpwerner.autodocstring"
+vscode "randomfractalsinc.geo-data-viewer"
+vscode "redhat.fabric8-analytics"
+vscode "redhat.java"
+vscode "redhat.vscode-xml"
+vscode "redhat.vscode-yaml"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "tberman.json-schema-validator"
+vscode "tomoyukim.vscode-mermaid-editor"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-maven"
+vscode "vstirbu.vscode-mermaid-preview"
+vscode "wholroyd.jinja"
+vscode "withfig.fig"
+vscode "xabikos.javascriptsnippets"
+vscode "zainchen.json"
+vscode "zhouronghui.propertylist"
