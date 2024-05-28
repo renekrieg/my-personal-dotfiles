@@ -8,28 +8,30 @@
     ~/.zshrc: config/zshrc
     ~/.zshenv: config/zshenv
     ~/.zsh_aliases: config/zsh_aliases
+    ~/.p10k.zsh: config/p10k.zsh
     ~/.gitconfig: config/gitconfig
     ~/.mackup.cfg: config/mackup.cfg
     ~/.nanorc: config/nanorc
+    ~/.config/lsd: config/lsd
     ~/.config/bat: 
       create: true
       path: config/bat
     ~/.config/nvim: config/nvim
 
-# - create:
+- create:
 #   - ~/work
-#   - ~/development
+    - ~/development
 
 - shell:
-  #  - command: scripts/setup_homebrew.zsh
-  #    stdout: true
-  #    stderr: true
-  #  - command: /setup_zsh.zsh
-  #    stdout: true
-  #    stderr: true
-  #  - command: /setup_macos.zsh
-  #    stdout: true
-  #    stderr: true
-   - command: crontab scripts/cron.txt
-     stdout: true
-     stderr: true
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_zsh.zsh
+      stdout: true
+      stderr: true
+#   - command: /setup_macos.zsh
+#     stdout: true
+#     stderr: true
+#    - command: crontab scripts/cron.txt
+#       stdout: true
+#       stderr: true

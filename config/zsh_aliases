@@ -1,6 +1,8 @@
-alias ls='exa'
-alias la='exa -laFh --sort=ext'
-alias exa='exa -laFh --git'
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 alias trail='<<<${(F)path}'
 alias ftrail='<<<${(F)fpath}'
 alias rm=trash
