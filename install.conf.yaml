@@ -13,9 +13,7 @@
     ~/.gitconfig: config/gitconfig
     ~/.mackup.cfg: config/mackup.cfg
     ~/.nanorc: config/nanorc
-    ~/.config/nvim:
-      create: true
-      path: config/nvim
+    ~/.config/nvim: config/nvim
     ~/.config/lsd: config/lsd
     ~/.config/bat: config/bat
 
