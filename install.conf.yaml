@@ -12,11 +12,11 @@
     ~/.gitconfig: config/gitconfig
     ~/.mackup.cfg: config/mackup.cfg
     ~/.nanorc: config/nanorc
-    ~/.config/lsd: config/lsd
-    ~/.config/bat: 
+    ~/.config/nvim:
       create: true
-      path: config/bat
-    ~/.config/nvim: config/nvim
+      path: config/nvim
+    ~/.config/lsd: config/lsd
+    ~/.config/bat: config/bat
 
 - create:
 #   - ~/work
