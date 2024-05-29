@@ -33,7 +33,9 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias dv="cd ~/development"
+alias ic="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias dotfiles="cd ~/.dotfiles"
 alias g="git"
 
 # Detect which `ls` flavor is in use
@@ -44,6 +46,9 @@ alias g="git"
 # 	colorflag="-G"
 # 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 # fi
+
+# Pretty print in PATH
+# alias path='echo; tr ":" "\n" <<< "$PATH"; echo;'
 
 # List all files colorized in long format
 # alias l="ls -lF ${colorflag}"
@@ -77,8 +82,8 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
 
 # IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en0"
+alias isp="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
 # Show active network interfaces

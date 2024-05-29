@@ -13,6 +13,7 @@
     ~/.gitconfig: config/gitconfig
     ~/.mackup.cfg: config/mackup.cfg
     ~/.nanorc: config/nanorc
+    ~/.hushlogin: config/hushlogin
     ~/.config/nvim: config/nvim
     ~/.config/lsd: config/lsd
     ~/.config/bat: config/bat
@@ -31,6 +32,6 @@
 #   - command: /setup_macos.zsh
 #     stdout: true
 #     stderr: true
-#    - command: crontab scripts/cron.txt
-#       stdout: true
-#       stderr: true
+    - command: crontab scripts/cron.txt
+      stdout: true
+      stderr: true
