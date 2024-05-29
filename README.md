@@ -19,4 +19,4 @@ Configuration for dotbox is placed in `install.conf.yaml`.
 - Add Git config
 - Add iTerm Config
 - Add Alfred Config
-
+- ...
