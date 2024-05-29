@@ -4,6 +4,13 @@ echo "\n<<< Starting ZSH Setup >>>\n"
 
 # Installation unnecessary; it's in the Brewfile.
 
+echo "\n<<< Installing Oh-My-ZSH >>>\n"
+# Install Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "\n<<< Installing Powerlevel10k Theme >>>\n"
+# Install Powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 # https://stackoverflow.com/a/4749368/1341838
 if grep -Fxq '/opt/homebrew/bin/zsh' '/etc/shells'; then
   echo '/opt/homebrew/bin/zsh already exists in /etc/shells'
