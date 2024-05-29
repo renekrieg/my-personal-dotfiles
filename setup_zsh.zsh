@@ -7,6 +7,7 @@ echo "\n<<< Starting ZSH Setup >>>\n"
 echo "\n<<< Installing Oh-My-ZSH >>>\n"
 # Install Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+mv ~/.zshrc.pre-oh-my-szh .zshrc
 echo "\n<<< Installing Powerlevel10k Theme >>>\n"
 # Install Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
