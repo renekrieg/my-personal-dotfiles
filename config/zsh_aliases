@@ -37,6 +37,7 @@ alias dv="cd ~/development"
 alias ic="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias dotfiles="cd ~/.dotfiles"
 alias g="git"
+alias k="kubectl"
 
 # Detect which `ls` flavor is in use
 # if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -78,7 +79,8 @@ alias week='date +%V'
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g;'
 
 # Google Chrome
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+# alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias chrome='/Applications/Google\ Chrome\ Dev.app/Contents/MacOS/Google\ Chrome\ Dev'
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
 
 # IP addresses
