@@ -1,9 +1,0 @@
-[user]
-email = rene_k@me.com
-name = Rene Krieg
-
-[github]
-user = 'renekrieg'
-
-[core]
-sshCommand = 'ssh -i ~/.ssh/id_ed25519_personal'
