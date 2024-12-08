@@ -6,9 +6,9 @@ local config = {}
 if wezterm.config_builder then config = wezterm.config_builder() end
 
 -- Settings
-config.color_scheme = 'Catppuccin Frappé (Gogh)'
+config.color_scheme = 'Catppuccin Macchiato (Gogh)'
 config.font = wezterm.font_with_fallback({
-    { family = "Iosevka Nerd Font", scale = 1.4, weight = "Medium",},
+    { family = "Iosevka Nerd Font", scale = 1.4, weight = "Regular",},
     { family = "JetBrains Mono NL", scale = 1.4 },
 })
 config.window_background_opacity = 1
