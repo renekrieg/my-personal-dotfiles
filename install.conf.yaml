@@ -32,6 +32,6 @@
 #   - command: /setup_macos.zsh
 #     stdout: true
 #     stderr: true
-    - command: crontab scripts/cron.txt
-      stdout: true
-      stderr: true
+#    - command: crontab scripts/cron.txt
+#      stdout: true
+#      stderr: true

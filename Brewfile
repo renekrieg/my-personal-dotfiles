@@ -74,7 +74,7 @@ cask "tableplus"
 # Open-source code editor
 cask "visual-studio-code"
 # Network protocol analyzer
-cask "wireshark"
+# cask "wireshark"
 vscode "alexdauenhauer.catppuccin-noctis"
 vscode "catppuccin.catppuccin-vsc"
 vscode "github.github-vscode-theme"

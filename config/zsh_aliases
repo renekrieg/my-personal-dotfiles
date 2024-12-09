@@ -171,3 +171,6 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path="echo -e ${PATH//:/\\n}"
+
+# Git update main und scheckout new branch
+alias gitnew="(git checkout master || git checkout main); git fetch --all --tags --prune --jobs=10; git pull; git checkout -b"
