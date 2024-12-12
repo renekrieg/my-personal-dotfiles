@@ -1,5 +1,5 @@
 # ---- take (copid from oh-my-zsh) ----
-if not type oh-my-zsh &>/dev/null; then
+if ! type oh-my-zsh &>/dev/null; then
     function take() {
     if [[ $1 =~ ^(https?|ftp).*\.tar\.(gz|bz2|xz)$ ]]; then
         takeurl "$1"

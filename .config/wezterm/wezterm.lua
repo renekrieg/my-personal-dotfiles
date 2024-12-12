@@ -8,8 +8,8 @@ if wezterm.config_builder then config = wezterm.config_builder() end
 -- Settings
 config.color_scheme = 'Catppuccin Macchiato (Gogh)'
 config.font = wezterm.font_with_fallback({
-    { family = "Iosevka Nerd Font", scale = 1.4, weight = "Regular",},
-    { family = "JetBrains Mono NL", scale = 1.4 },
+    { family = "Iosevka Nerd Font", scale = 1.4, weight = "Medium",},
+    { family = "JetBrains Mono NL", scale = 1.2 },
 })
 config.window_background_opacity = 1
 config.window_decorations = "RESIZE"
