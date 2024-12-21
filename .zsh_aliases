@@ -86,8 +86,8 @@ alias gfo='git fetch origin'
 
 # ---- Work ----
 alias work='cd ~/work'
-alias stk='cd ~/work/streckenkunde40'
-alias tokenschleuder="source $HOME/work/tokenschleuder/venv/bin/activate && $HOME/work/tokenschleuder/tokenschleuder.py"
+alias stk='cd Developer/git/streckenkunde40'
+alias tokenschleuder="source $HOME/Developer/git/tokenschleuder/.venv/bin/activate && $HOME/Developer/git/tokenschleuder/tokenschleuder.py"
 
 # ---- Utils ----
 # Lock the screen (when going AFK)

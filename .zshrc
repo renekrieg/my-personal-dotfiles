@@ -28,3 +28,11 @@ fi
 . ~/.zsh_aliases
 # Create Functions
 . ~/.zsh_functions
+
+# ---- Activate Python Version from pyenv
+if type pyenv &>/dev/null; then
+  eval "$(pyenv init --path)"
+fi
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)

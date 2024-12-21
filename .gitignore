@@ -1,5 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/java,python,macos,angular
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,python,macos,angular
+### Config files that should be ignored ###
+.config/raycast/extensions/
+.config/glab-cli
+.config/tmux/plugins/
+.config/karabiner/automatic_backups
+.config/karabiner/assets
 
 ### Angular ###
 ## Angular ##
