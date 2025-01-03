@@ -33,7 +33,7 @@ set splitbelow " Horizontal splits below current window
 set splitright " Vertical splits to the right
 set noswapfile " Don't use a swap file
 set smartindent " Smart indentation
-set showtabline=2 " Always show tab line
+" set showtabline=2 " Always show tab line
 set backspace=indent,eol,start " Configurable backspace behavior
 set pumheight=10 " Popup menu height
 set conceallevel=0 " Make `` visible in markdown
